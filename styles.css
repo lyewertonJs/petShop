@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.topo-img {
+    background-image: url('img/banner-topo.jpg');
+    background-size: cover;
+    background-position-y: 70%;
+    height: 50vh;
+}
+.topo-name {
+    padding-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    color: #3c184e;
+    display: flex;
+}
+.topo-name img {
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+}
+.topo-name .p1 {
+    font-weight: bold;
+}
+.p2 {
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    color: #3c184e;
+}
+.topo-title {
+    width: 70%;
+    max-width: 700px;
+    min-width: 600px;
+    max-height: 300px;
+    background-color: rgba(255, 255, 255, 0.589);
+    box-shadow: 0 0 20px 1px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.topo-title h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
+    color: #3c184e;
+    font-weight: bolder;
+}
+.link {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.link a {
+    text-decoration: none;
+    background-color: #3c184e;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+.topo-title a img {
+    width: 20px;
+    height: 20px;
+}
+.services, .position {
+    width: calc(100% - 40px);
+    max-width: 1024px;
+    margin: 40px auto;
+    line-height: 24px;
+    color: #3c184e;
+}
+.services h3 {
+    margin: 25px 0;
+}
+.services ul li {
+    margin: 10px 0;
+}
+.services ul li span {
+    font-weight: bold;
+}
+.imgs{
+    padding: 10px 0;
+    overflow: auto;
+    white-space: nowrap;
+    
+    display: block;
+    text-align: center;
+}
+.imgs img {
+    margin: 10px;
+    box-shadow: 0 0 5px 1px black;
+}
+.bg-purple {
+    background-color: #3c184e;
+    text-align: center;
+    color: white;
+    height: 300px;
+    padding: 100px 0;
+    margin: 15px auto;
+}
+.faixa h2 {
+    text-align: center;
+    max-width: 600px;
+    margin: 15px auto;
+}
+.faixa img {
+    width: 25px;
+}
+
+.marcas {
+    text-align: center;
+    width: calc(100% - 40px);
+    max-width: 620px;
+    margin: 40px auto;
+    color: #3c184e;
+}
