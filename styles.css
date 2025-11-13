@@ -117,3 +117,25 @@
     margin: 40px auto;
     color: #3c184e;
 }
+.position h3 {
+    margin: 20px 0;
+}
+iframe {
+    width: 100%;
+}
+.bg-purple1 {
+    height: fit-content;
+    background-color: #3c184e;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 8px;
+}
+.bg-purple1 p {
+    padding: 5px;
+}
+.bg-purple1 a img {
+    width: 15px;
+    height: 15px;
+}
+
